@@ -1,3 +1,178 @@
-body{
-    background-color: antiquewhite;
+* {
+    font-family: 'Segoe UI';
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    height: 97.075;
+}
+
+img {
+    width: 175px;
+
+    margin-top: 13px;
+
+}
+
+.logocon {
+    display: inline-block;
+    margin-left: 145px;
+    margin-top: 0px;
+}
+
+.nav1 {
+    display: flex;
+    column-gap: 40px;
+    justify-content: end;
+    width: 60vw;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+}
+
+.para {
+    margin: 45px 150px;
+    /* font-size: 18px; */
+    opacity: 0.4;
+    font-family: 'Segoe UI';
+}
+
+main {
+    /* border: 2px solid black; */
+    width: 70vw;
+    margin-top: 85px;
+    margin-left: 266px;
+    margin-right: 266px;
+}
+
+.mainline {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 5px;
+}
+
+.mainline img {
+    width: 120px;
+    height: 31px;
+    margin-left: 27px;
+
+}
+
+.subline {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+
+
+}
+
+
+.bigbutton {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #00b6d1;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 25vw;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo-write {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.logo-write img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.logo-write h3 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.logo-write small {
+    margin-top: 34px;
+    margin-left: 5px;
+    
+}
+.logo-write a{
+    text-decoration: none;
+}
+.smalllink{
+    text-decoration: none;
+}
+.boxes {
+    display: grid;
+    grid-template-columns: 345px 345px 345px;
+    gap: 10px;
+    margin-top: 50px;
+    width: 70vw;
+    margin-left: 266px;
+    margin-right: 266px;
+    /* border: 2px solid black; */
+
+}
+
+.box {
+    /* border: 1px solid black; */
+    width: 320px;
+    height: 150px;
+    margin: 4px;
+    background-color: #f6f6f6;
+
+}
+.box h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.download{
+    width: 121px;
+    text-align: center;
+    height: 29px;
+    background-color: #449744;
+    /* margin-top: 30px; */
+    /* margin-left: 81px; */
+    margin: 22px 99px;
+    padding-top: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+.download:hover{
+    background-color: #a0d6a0;
+}
+.download a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-weight: 600;
+}
+.country{
+    text-align: center;
+    margin-top: 15px;
 }
